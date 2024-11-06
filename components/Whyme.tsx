@@ -72,7 +72,7 @@ const Whyme: React.FC<WhymeProps> = ({ data }) => {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-white py-8">
+    <section ref={sectionRef} className="bg-white py-8" id="whyme">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1
           ref={titleRef}
