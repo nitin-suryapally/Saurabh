@@ -25,3 +25,8 @@ body {
     text-wrap: balance;
   }
 }
+@layer components {
+  .section-style {
+    @apply px-8 md:px-16 py-8;
+  }
+}

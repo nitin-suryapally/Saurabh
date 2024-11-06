@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        navText: "#9C9C9C",
+        paratext: "#211F1F",
+        whiteBackground:"#FFFBFB"
       },
     },
   },
