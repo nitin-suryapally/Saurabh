@@ -7,7 +7,7 @@ import { whyMeData } from "@/constant";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="flex flex-col items-center mx-auto">
       <Hero />
       <Whyme data={whyMeData} />
       <Testimonials />
