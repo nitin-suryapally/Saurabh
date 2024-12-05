@@ -104,7 +104,7 @@ const ContactForm: React.FC = () => {
     <div
       ref={sectionRef}
       id="getintouch"
-      className="text-white p-6 flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-8 max-w-6xl w-full mx-auto h-full"
+      className="text-white p-6 md:py-24 flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-8 max-w-6xl w-full mx-auto h-full section-style"
     >
       <div className="flex-1 pr-4 md:pr-8 h-full">
         <div className="w-full flex flex-col justify-between space-y-6 md:space-y-8 h-full">

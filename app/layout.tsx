@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { montserrat, roboto } from "./fonts/fonts";
+import { ibmPlexMono, raleway } from "./fonts/fonts";
 import Navbar from "./_components/header/Navbar";
 import Footer from "./_components/footer/Footer";
 
@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${roboto.variable} antialiased bg-black`}
+        className={`${ibmPlexMono.variable} ${raleway.variable} antialiased bg-black`}
       >
         <Navbar />
         {children}

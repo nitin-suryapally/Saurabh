@@ -32,7 +32,7 @@ const Hero = () => {
             ref={(el) => {
               if (el) textRefs.current[0] = el;
             }}
-            className={`heading`}
+            className={`heading font-sans font-bold`}
           >
             Progress Partner: Conquering Limits, Creating Opportunities
           </h1>
@@ -40,7 +40,7 @@ const Hero = () => {
             ref={(el) => {
               if (el) textRefs.current[1] = el;
             }}
-            className={`text-base md:text-2xl font-semibold font-mono`}
+            className={`text-base md:text-2xl  font-mono`}
           >
             Getting you desired Personal, Professional and Spiritual Results
           </p>
@@ -48,7 +48,7 @@ const Hero = () => {
             ref={(el) => {
               if (el) textRefs.current[2] = el;
             }}
-            className={`space-y-4 paragraph-style text-navText`}
+            className={`space-y-4 paragraph-style text-navText font-mono`}
           >
             <p className="text-sm md:text-lg">
               With over 20 years in the corporate world and winning over

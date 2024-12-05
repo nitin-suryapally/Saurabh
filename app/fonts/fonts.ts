@@ -1,13 +1,13 @@
-import { Montserrat, Roboto_Serif } from "next/font/google";
+import { IBM_Plex_Mono, Raleway } from "next/font/google";
 
-export const montserrat = Montserrat({
+export const ibmPlexMono = IBM_Plex_Mono({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-ibmPlexMono",
 });
 
-export const roboto = Roboto_Serif({
+export const raleway = Raleway({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
   subsets: ["latin"],
-  variable: "--font-roboto",
+  variable: "--font-raleway",
 });

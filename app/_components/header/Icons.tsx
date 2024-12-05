@@ -20,7 +20,7 @@ const Icons = () => {
                 width={30}
                 height={30}
                 alt={`${item.title}`}
-                className=""
+                className="text-black"
               />
             </Link>
           </li>
