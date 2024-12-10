@@ -9,7 +9,7 @@ import {
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[#1E1E1E] text-white pt-6">
+    <footer className="bg-[#1E1E1E] text-white pt-6 font-mono">
       <div className="container mx-auto px-4 flex md:flex-col flex-row justify-between items-center space-y-4 md:space-y-8">
         {/* Navigation Links */}
         <div className="flex space-x-6 text-sm md:text-base">

@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="hidden md:flex w-full md:w-1/2 justify-center">
         <ul className="flex space-x-4 lg:space-x-8 text-navText text-sm lg:text-lg">
           {navitem.map((it, index) => (
-            <li className={`font-mono text-black`} key={index}>
+            <li className={`font-sans text-black`} key={index}>
               <Link href={it.href}>{it.item}</Link>
             </li>
           ))}
@@ -69,7 +69,7 @@ const Navbar = () => {
           {navitem.map((it, index) => (
             <li
               key={index}
-              className={`font-mono text-black border-b-2 border-gray-300 hover:border-black transition`}
+              className={`font-sans text-black border-b-2 border-gray-300 hover:border-black transition`}
             >
               <Link href={it.href} onClick={() => setMenuOpen(false)}>
                 {it.item}

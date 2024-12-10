@@ -13,7 +13,7 @@
   }
 
   .heading {
-    @apply text-xl sm:text-3xl lg:text-4xl font-sans;
+    @apply text-xl sm:text-3xl lg:text-4xl font-sans font-bold;
   }
 
   .paragraph-style {

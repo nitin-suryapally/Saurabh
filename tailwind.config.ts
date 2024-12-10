@@ -13,8 +13,8 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        sans: [`var(--font-raleway)`],
-        mono: [`var(--font-ibmPlexMono)`],
+        sans: [`var(--font-montserrat)`],
+        mono: [`var(--font-merriweather)`],
       },
     },
   },

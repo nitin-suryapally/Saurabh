@@ -74,13 +74,13 @@ const Whyme: React.FC<WhymeProps> = ({ data }) => {
         <div className="max-w-6xl mx-auto">
           <h1
             ref={titleRef}
-            className={` heading font-extrabold text-center mb-6 text-black`}
+            className={` heading  text-center mb-6 text-black`}
           >
             {data.title}
           </h1>
           <p
             ref={descriptionRef}
-            className={`text-center mb-8 text-paratext font-normal paragraph-style mx-auto`}
+            className={`text-center mb-8 text-paratext font-normal paragraph-style mx-auto font-mono`}
           >
             {data.description}
           </p>
