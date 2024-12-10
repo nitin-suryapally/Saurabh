@@ -212,5 +212,4 @@ export const programsData: Program[] = [
       },
     },
   },
-  // Add more programs as needed
 ];
