@@ -4,10 +4,11 @@ import { gsap } from "gsap";
 import Image from "next/image";
 import { useGSAP } from "@gsap/react";
 import { Profile_pic } from "@/utils";
+import Link from "next/link";
 
 const Hero = () => {
   const textRefs = useRef<(HTMLElement | null)[]>([]);
-  const buttonRef = useRef<HTMLButtonElement | null>(null);
+  const buttonRef = useRef<HTMLAnchorElement | null>(null);
 
   useGSAP(() => {
     const tl = gsap.timeline({ defaults: { duration: 1, ease: "power3.out" } });
@@ -64,8 +65,9 @@ const Hero = () => {
             </p>
           </div>
 
-          <button
+          <Link
             ref={buttonRef}
+            href="#whyme"
             className={`mt-4 inline-flex items-center px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 transition shadow-md hover:shadow-lg text-base md:text-lg font-sans`}
           >
             FREE 1:1 DISCOVERY SESSION
@@ -85,7 +87,7 @@ const Hero = () => {
                 />
               </svg>
             </span>
-          </button>
+          </Link>
         </div>
 
         <div className="flex-1 flex justify-center mb-8 md:mb-0 items-center">

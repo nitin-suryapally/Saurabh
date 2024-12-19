@@ -165,14 +165,14 @@ export const programsData: Program[] = [
     image: programe2_image,
     title: "Handle life challenges intentionally",
     description:
-      "This would significantly shift how you think, how you make decisions, and operate in your business and personal life.",
+      "Life is full of challenges that test our resilience, decision-making, and inner strength.",
     buttonText: "Know more",
     slug: "Handle-life-challenges-intentionally",
     pageDetails: {
       pageTitle: "Handle Life Challenges Intentionally",
       bannerImage: programe_1_banner_image,
       subheading:
-        "This is a short, but foundational, journey for you to start transforming your mindset - because it all starts there!",
+        'Life is full of challenges that test our resilience, decision-making, and inner strength. Our course, "Handle Life Challenges Intentionally," is designed to help you navigate these obstacles with purpose and confidence.',
       whyMeData: {
         title: "Why Choose This Program?",
         description:
@@ -181,30 +181,30 @@ export const programsData: Program[] = [
           {
             title: "I can help You",
             bullets: [
-              "understand and control fear to stop it from holding you back",
-              "Understand the importance of a balanced approach.",
-              "heal from the past and release guilt, shame, and regret",
-              "build a supportive network and set healthy boundaries",
+              "Shift Your Mindset: Embrace a proactive approach to life's challenges, turning obstacles into opportunities for growth.",
+              "Enhance Decision-Making: Develop strategies for making thoughtful and intentional decisions that align with your personal and professional goals.",
+              "Operate with Purpose: Cultivate habits and practices that enable you to handle stress, uncertainty, and adversity with grace and effectiveness.",
             ],
             imageSrc: what_i_provide,
           },
           {
-            title: "Simple 3-step Plan",
+            title: "4 key Capabilities that you'll Gain",
             bullets: [
-              "Understand You - Dig into You a little bit - old habits, influences, bias, culture, known/unknown gaps, basically uncover the Stuck in You.",
-              "Focus on the Now - Be completely aware of what is Really causing you to not move forward in life.",
-              "Plan the Future - Come up with a Vision and an Executable Plan for the future.",
+              "Resilience: Build the inner strength to face challenges head-on and bounce back stronger than ever.",
+              "Clarity: Gain a clear understanding of your values and priorities, which will guide your decision-making process.",
+              "Confidence: Learn to trust your instincts and make decisions that reflect your true self.",
+              "Balance: Achieve harmony between your personal and professional life, creating a fulfilling and purposeful existence.",
             ],
             imageSrc: help_you_with,
           },
           {
-            title: "Put in Action through",
+            title: "Who Benefits:",
             bullets: [
-              "Individual Coaching - 1 on 1 Virtual or In-Person Coaching",
-              "Group Coaching",
-              "Create a Strong Team",
-              "Enable your Associates",
-              "Build Confidence",
+              "Professionals seeking to improve their leadership and decision-making skills.",
+              "Entrepreneurs looking to navigate the complexities of running a business with confidence.",
+              "Individuals wanting to live a more intentional and purpose-driven life.",
+              "Through: Interactive Workshops, Personalized Coaching, Community Support",
+             ' Enroll Today: Take the first step towards a more intentional, empowered, and balanced life. Join us in "Handle Life Challenges Intentionally" and transform the way you think, decide, and live.',
             ],
             imageSrc: how,
           },

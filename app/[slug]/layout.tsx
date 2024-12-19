@@ -16,7 +16,6 @@ export default function programe({
     <section className="flex flex-col space-y-8 md:space-y-16 mx-auto w-full">
       {children}
       <ContactForm />
-      <Footer />
     </section>
   );
 }

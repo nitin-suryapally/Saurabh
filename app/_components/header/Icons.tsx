@@ -1,7 +1,7 @@
 
 import { LinkedIcon, TwitterIcon } from "@/utils";
-import Image from "next/image";
 import Link from "next/link";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Icons = () => {
   const iconsList = [
@@ -12,19 +12,18 @@ const Icons = () => {
   return (
     <div>
       <ul className="flex space-x-4 items-center justify-center">
-        {iconsList.map((item, index) => (
-          <li key={index}>
-            <Link href={item.href}>
-              <Image
-                src={item.Icon}
-                width={30}
-                height={30}
-                alt={`${item.title}`}
-                className="text-black"
-              />
-            </Link>
-          </li>
-        ))}
+
+        <li >
+          <Link href="" >
+            <FaInstagram className="w-7 h-7" />
+          </Link>
+        </li>
+        <li >
+          <Link href="">
+            <FaLinkedinIn className="w-7 h-7" />
+          </Link>
+        </li>
+
       </ul>
     </div>
   );

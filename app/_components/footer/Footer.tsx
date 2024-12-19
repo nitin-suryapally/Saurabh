@@ -32,29 +32,29 @@ const Footer: React.FC = () => {
 
         {/* Social Media Icons */}
         <div className="flex space-x-4 py-4">
-          <Link
+          {/* <Link
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-orange-500 transition"
           >
             <FaFacebookF className = "w-7 h-7" />
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-orange-500 transition"
           >
             <FaTwitter className = "w-7 h-7"/>
-          </Link>
+          </Link> */}
           <Link
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-orange-500 transition"
           >
-            <FaInstagram className = "w-7 h-7" />
+            <FaInstagram className="w-7 h-7" />
           </Link>
           <Link
             href="https://linkedin.com"
@@ -62,16 +62,16 @@ const Footer: React.FC = () => {
             rel="noopener noreferrer"
             className="hover:text-orange-500 transition"
           >
-            <FaLinkedinIn className = "w-7 h-7" />
+            <FaLinkedinIn className="w-7 h-7" />
           </Link>
         </div>
 
         {/* Copyright Text */}
-        
+
       </div>
       <div className="text-xs md:text-sm text-center md:text-right bg-black w-full flex items-center justify-center py-4 gap-2">
-          © 2024 <span className="text-orange-500">Saurabh</span> All Rights Reserved, Inc.
-        </div>
+        © 2024 <span className="text-orange-500">Saurabh</span> All Rights Reserved, Inc.
+      </div>
     </footer>
   );
 };
